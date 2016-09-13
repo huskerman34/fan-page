@@ -1,5 +1,11 @@
-body {background-color:forestgreen; color: goldenrod; }
-h1{background-color:brown; }
+body {background-color:forestgreen; color: black; }
+
 #content {color: #ff00cc; } 
 
 .Edgarfgreenwood {color:aquamarine;}
+H1 { font-family: Lucida Handwriting; }
+#body {background-image:url(images.jpg)}
+#body {background-repeat:repeat-x;}
+footer {font-style: italic; }
+
+
