@@ -4,8 +4,6 @@ body {background-color:#AF670c; color: black; }
 
 .Edgarfgreenwood {color:aquamarine;}
 H1 { font-family: Lucida Handwriting; }
-#body {background-image:url(images.jpg)}
-#body {background-repeat:no-repeat;}
 footer {font-style: italic; }
 h1 {text-align: center; }
 nav{text-align: center; }
@@ -16,10 +14,17 @@ p {font-family:fantasy; }
 title {font-style: oblique; }
 nav{font-size: 2.0em; }
 li {font-family:fantasy; font-size: 1.5em; }
-#body {background-position:center; }
-H2 {font-family: cursive; font-size: 2.0em;}
+
+H2 {font-family: cursive; font-size: 2.0em; }
 nav{font-style:italic; }
-p {line-height: 2.0em; }
-p {font-size: 1.5em; }
+
+
 ol{list-style-type: upper-alpha;}
 a {font-weight: bold; font-size: 2.0em; }
+h1 {text-transform: uppercase; }
+main{background-image: url(neverwinter_nights_dragon_sky_mountain_wings_22041_3840x2160.png); background-size:autocenter ;}
+a {text-decoration: none ;}
+
+p {font-size:1.3em; }
+
+
