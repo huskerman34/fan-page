@@ -14,15 +14,13 @@ p {font-family:fantasy; }
 title {font-style: oblique; }
 nav{font-size: 2.0em; }
 li {font-family:fantasy; font-size: 1.5em; }
-
-H2 {font-family: cursive; font-size: 2.0em; }
+H1 {background-image: url(main-background-footer.png); background-repeat: no-repeat; background-position: center; }
+H2 {font-family: cursive; font-size:2.0em; }
 nav{font-style:italic; }
-
-
+H1 {color: #ff8000; }
 ol{list-style-type: upper-alpha;}
 a {font-weight: bold; font-size: 2.0em; }
 h1 {text-transform: uppercase; }
-main{background-image: url(neverwinter_nights_dragon_sky_mountain_wings_22041_3840x2160.png); background-size:autocenter ;}
 a {text-decoration: none ;}
 
 p {font-size:1.3em; }
