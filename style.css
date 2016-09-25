@@ -6,24 +6,25 @@ body {
     
 
 #content {
-    color: #ff00cc;
+    color: blue;
 }
 
 .Edgarfgreenwood {
-    color: aquamarine;
+    color: blue;
+}
+h1 {
+    font-family: Lucida Handwriting;height: 60px;
+    margin-top: 0;color: #ff8000; text-align: center;
+}
+h2 {
+    font-family: fantasy;
+    font-style: italic;
 }
 
-H1 {
-    font-family: Lucida Handwriting;
+h3 {
+    font-family: fantasy;
+    font-style: italic;
 }
-
-     
-
-
-#body {
-    background-repeat: no-repeat;
-}
-
 footer {
     font-style: italic;
 }
@@ -31,73 +32,55 @@ footer {
         background-image: url(main-background-footer.jpg);
         background-position: right;
         background-repeat: no-repeat;
-        height:80px;
-        padding-top: 15px;
-        
+        height: auto; width: auto; font-size: 1em; border-radius: 15px; margin-bottom: 10px;
     }
 
-h1 {
-    text-align: center;
+
 }
 
-nav {
-    text-align: center;
-}
+
 
 h1 {
-    line-height: 2.0em; margin-bottom: 0;
+    height: 60px;
+    margin-top: 0;color: #ff8000; text-align: center;
 }
 
-h1 {
-    font-size: 3.0em; margin-top: 0;
-}
+
 
 footer {
     font-size: 1.40em
 }
 
-p {
-    font-family: fantasy;
-}
+
+
 
 title {
     font-style: oblique;
 }
 
 nav {
-    font-size: 1.75em;
-    background-color: #af670c;
+      
     padding: 10px;
-    font-family: cursive;
+    font-family: fantasy; height 40px;text-align: center;
 }
 
-li {
-    font-family: fantasy;
-    font-size: 1.0em;
-}
-
-#wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    min-width: 960px;240px; box-shadow: 3px 3px 3px;
-}
-
-
-H2 {
-    font-family: cursive;
-    font-size:2.0em;
+img {
+     
+     float: right ;
 }
 
 
 
-H1 {
-    color: #ff8000;
-}
 
-dd {font-weight: bold;
+
+
+
+
+
+
+
    
-}
+
 
 a {
     font-weight: bold;
@@ -112,55 +95,41 @@ a {
     text-decoration: none;
 }
 
+main {padding-top: 1px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; display: block; }
 
-
-
-}
-
-
-}
+h3{font-family: sans-serif;}
 
 
 
 
-}
 
-p {
-    line-height: 2.0em;
-}
 
-p {
-    font-size: 1.25em;
-}
 
-ol {
-    list-style-type: upper-alpha;
-}
+
+
+
+
+
+
+
 
 a {
     font-weight: bold;
     font-size: 1.0em;
 }
-#gradient {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80;
-    background-color: #ffffff;
-    min-width: 650px;
-    max-width: 1280px;
-    box-shadow: 3px 3px 3px #333;
-}
+
+
 
 #dragon {
    background-image: url(Neverwinter_-_Rise_of_Tiamat.jpg);
- height: 300px;
+ height: 400px;
  background-size: 100% 100%;
  background-repeat: no-repeat;
  
   }
  
-h3 {
-    line-height: 1.0em;
-    font-size: 1.25em;
-}
-dt {font-weight: bolder;}    
+
+li {text-transform: uppercase; }   
+
+#wrapper {width: 80%; margin-left: auto; margin-right: auto;}
+h2 {text-shadow: 1px 1px 1px #ff0000;}

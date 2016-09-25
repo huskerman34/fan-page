@@ -1,0 +1,108 @@
+body {
+    background-color: #AF670c;
+    background-image: linear-gradient(to bottom, #ffffff, #af670c);
+    background-repeat: no-repeat;
+}
+
+#content {
+    color: blue;
+}
+
+.Edgarfgreenwood {
+    color: blue;
+}
+
+h1 {
+    font-family: Lucida Handwriting;
+    height: 60px;
+    margin-top: 0;
+    color: #ff8000;
+    text-align: center;
+}
+
+h2 {
+    font-family: fantasy;
+    font-style: italic;
+}
+
+
+
+
+footer {
+    font-style: italic;
+}
+
+header {
+    background-image: url(main-background-footer.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    font-size: 1em;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+h1 {
+    height: 60px;
+    margin-top: 0;
+    color: #ff8000;
+    text-align: center;
+}
+footer {
+    font-size: 1.40em
+}
+title {
+    font-style: oblique;
+}
+    nav {
+     padding: 10px;
+     font-family: fantasy;
+     text-align: center;
+     height: auto;
+ }
+img {
+    float: right;
+}
+a {
+    font-weight: bold;
+    font-size: 1.0em;
+}
+h1 {
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+main {
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: block;
+}
+
+a {
+    font-weight: bold;
+    font-size: 1.0em;
+}
+#dragon {
+    background-image: url(Neverwinter_-_Rise_of_Tiamat.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+li {
+    text-transform: uppercase;
+}
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    text-shadow: 1px 1px 1px #ff0000;
+}
+h3 {color: #ffffff; color: rgba(255, 255, 255, 0.8); font-family: verdana, helvetica, sans-serif; font-size: 1.3em; padding-right: 10px; text-align: left;}
