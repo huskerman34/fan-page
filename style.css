@@ -1,9 +1,13 @@
+@font-face {
+    font-family: Neverwinter;
+    src: url(Neverwinter-Normal/Neverwinter.ttf);
+}
+
 body {
     background-color: #AF670c;
     background-image: linear-gradient(to bottom, #ffffff, #af670c);
     background-repeat: no-repeat;
 }
-    
 
 #content {
     color: blue;
@@ -12,124 +16,101 @@ body {
 .Edgarfgreenwood {
     color: blue;
 }
+
 h1 {
-    font-family: Lucida Handwriting;height: 60px;
-    margin-top: 0;color: #ff8000; text-align: center;
+    font-family: Neverwinter;
+    ;
+    height: 60px;
+    margin-top: 0;
+    color: #ff8000;
+    text-align: center;
+    height: 60px;
+    text-transform: uppercase;
+    margin-top: 0;
+    color: #ff8000;
+    text-align: center;
 }
+
 h2 {
     font-family: fantasy;
+    text-shadow: 1px 1px 1px #ff0000;
     font-style: italic;
 }
 
 h3 {
-    font-family: fantasy;
+    font-family: fantasy f text-shadow: 1px 1px 1px #ff0000;
     font-style: italic;
 }
+
 footer {
     font-style: italic;
 }
-    header {
-        background-image: url(main-background-footer.jpg);
-        background-position: right;
-        background-repeat: no-repeat;
-        height: auto; width: auto; font-size: 1em; border-radius: 15px; margin-bottom: 10px;
-    }
 
-
+header {
+    background-image: url(main-background-footer.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    font-size: 1em;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
-
-
-
-h1 {
-    height: 60px;
-    margin-top: 0;color: #ff8000; text-align: center;
-}
-
-
 
 footer {
     font-size: 1.40em
 }
-
-
-
 
 title {
     font-style: oblique;
 }
 
 nav {
-      
     padding: 10px;
-    font-family: fantasy; height 40px;text-align: center;
+    font-family: fantasy;
+    height 40px;
+    text-align: center;
 }
 
 img {
-     
-     float: right ;
+    float: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-a {
-    font-weight: bold;
-    font-size:1.0em;
-}
-
-h1 {
-    text-transform: uppercase;
-}
-
-a {
-    text-decoration: none;
-}
-
-main {padding-top: 1px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; display: block; }
-
-h3{font-family: sans-serif;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 a {
     font-weight: bold;
     font-size: 1.0em;
 }
 
+a {
+    text-decoration: none;
+}
 
+main {
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: block;
+}
+
+a {
+    font-weight: bold;
+    font-size: 1.0em;
+}
 
 #dragon {
-   background-image: url(Neverwinter_-_Rise_of_Tiamat.jpg);
- height: 400px;
- background-size: 100% 100%;
- background-repeat: no-repeat;
- 
-  }
- 
+    background-image: url(Neverwinter_-_Rise_of_Tiamat.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
-li {text-transform: uppercase; }   
+li {
+    text-transform: uppercase;
+}
 
-#wrapper {width: 80%; margin-left: auto; margin-right: auto;}
-h2 {text-shadow: 1px 1px 1px #ff0000;}
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
