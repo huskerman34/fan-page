@@ -1,11 +1,15 @@
+
+
+
 body {
     background-color: #AF670c;
-    background-image: linear-gradient(to bottom, #ffffff, #af670c);
+    background-image: linear-gradient(to bottom,#ffffff, #af670c);
     background-repeat: no-repeat;
 }
 
-#content {
+#    content {
     color: blue;
+    font-size: .75em;
 }
 
 .Edgarfgreenwood {
@@ -17,16 +21,13 @@ h1 {
     height: 60px;
     margin-top: 0;
     color: #ff8000;
-    text-align: center;
+    text-align: center;text-transform: uppercase;
 }
 
 h2 {
     font-family: fantasy;
     font-style: italic;
 }
-
-
-
 
 footer {
     font-style: italic;
@@ -45,64 +46,81 @@ header {
 
 
 
-h1 {
-    height: 60px;
-    margin-top: 0;
-    color: #ff8000;
-    text-align: center;
-}
 footer {
-    font-size: 1.40em
+    font-size: 1.00em; margin-left: 190px;
 }
+
 title {
     font-style: oblique;
 }
-    nav {
-     padding: 10px;
-     font-family: fantasy;
-     text-align: center;
-     height: auto;
- }
+
+nav {float: left;
+    padding: 20px;
+    font-family: fantasy;
+    width: 160px;
+    height: auto;
+    
+}
+
 img {
     float: right;
 }
-a {
-    font-weight: bold;
-    font-size: 1.0em;
-}
-h1 {
-    text-transform: uppercase;
-}
-a {
-    text-decoration: none;
-}
+
+
+
+
+
+
+
 main {
+    background-color: #173825;;
     padding-top: 1px;
     padding-right: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
-    display: block;
+    padding-left: 30px;
+    margin-left: 190px;
 }
 
-a {
+a {text-decoration: none;
     font-weight: bold;
     font-size: 1.0em;
 }
+
 #dragon {
     background-image: url(Neverwinter_-_Rise_of_Tiamat.jpg);
     height: 400px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-position: center;
 }
+
 li {
     text-transform: uppercase;
 }
+
 #wrapper {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    background-color: #90ee90;
+    min-width: 719px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px #333;
 }
+
 h2 {
     text-shadow: 1px 1px 1px #ff0000;
 }
-h3 {color: #ffffff; color: rgba(255, 255, 255, 0.8); font-family: verdana, helvetica, sans-serif; font-size: 1.3em; padding-right: 10px; text-align: left;}
+
+h3 {
+    color: #ffffff;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: verdana, helvetica, sans-serif;
+    font-size: 1.3em;
+    padding-right: 10px;
+    text-align: left;
+}
+    
+
+    
+}
