@@ -4,13 +4,6 @@ body {
     background-repeat: no-repeat;
 }
 
-#content {
-    color: blue;
-}
-
-.Edgarfgreenwood {
-    color: blue;
-}
 
 h1 {
     font-family: Lucida Handwriting;
@@ -18,20 +11,15 @@ h1 {
     margin-top: 0;
     color: #ff8000;
     text-align: center;
+    text-transform: uppercase;
 }
-
 h2 {
     font-family: fantasy;
     font-style: italic;
 }
-
-
-
-
 footer {
     font-style: italic;
     text-align: center;
-    padding: 20px;
 }
 header {
     background-image: url(main-background-footer.jpg);
@@ -40,51 +28,36 @@ header {
     height: auto;
     width: auto;
     font-size: 1em;
-   
-}
-
-
-
-h1 {
-    height: 60px;
-    margin-top: 0;
-    color: #ff8000;
-    text-align: center;
+    padding-bottom: 3px;
 }
 footer {
-    font-size: 1.40em
+    font-size: 1.00em;
+    margin-left: 190px;
 }
 title {
     font-style: oblique;
 }
-    nav {
-     padding: 10px;
-     font-family: fantasy;
-     text-align: center;
-     height: auto;
- }
+nav {
+    float: left;
+    padding: 20px;
+    font-family: fantasy;
+    width: 160px;
+    height: auto;
+}
 img {
     float: right;
 }
-a {
-    font-weight: bold;
-    font-size: 1.0em;
-}
-h1 {
-    text-transform: uppercase;
+main {
+    background-color: #173825;
+    ;
+    padding-top: 1px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 1.5px;
+    margin-left: 200px;
 }
 a {
     text-decoration: none;
-}
-main {
-    padding-top: 1px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    display: block;
-}
-
-a {
     font-weight: bold;
     font-size: 1.0em;
 }
@@ -101,8 +74,18 @@ li {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    background-color: #90ee90;
+    box-shadow: 3px 3px 3px #333;
+    padding-left: 1px;
 }
-h2 {
-    text-shadow: 1px 1px 1px #ff0000;
+h3 {
+    color: #ffffff;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: verdana, helvetica, sans-serif;
+    font-size: 1.3em;
+    padding-right: 10px;
+    text-align: left;
 }
-h3 {color: #ffffff; color: rgba(255, 255, 255, 0.8); font-family: verdana, helvetica, sans-serif; font-size: 1.3em; padding-right: 10px; text-align: left;}
+nav ul {
+    list-style-type: none;
+}
