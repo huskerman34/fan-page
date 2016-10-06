@@ -28,34 +28,26 @@ header {
     height: auto;
     width: auto;
     font-size: 1em;
-    padding-bottom: 3px;
+    padding-bottom: 
 }
 footer {
     font-size: 1.00em;
-    margin-left: 190px;
+    
 }
 title {
     font-style: oblique;
 }
 nav {
-    float: left;
-    padding: 20px;
     font-family: fantasy;
-    width: 160px;
     height: auto;
 }
 img {
     float: right;
 }
 main {
-    background-color: #173825;
-    ;
-    padding-top: 1px;
-    padding-right: 0px;
-    padding-bottom: 30px;
-    padding-left: 1.5px;
-    margin-left: 200px;
+    background-color: #FFC500;
 }
+    
 a {
     text-decoration: none;
     font-weight: bold;
