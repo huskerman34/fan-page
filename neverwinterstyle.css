@@ -45,7 +45,8 @@ img {
 }
 
 main {
-    background-color: #FFC500;
+    background-color: #262113; padding-right: 60px; padding-left: 60px; padding-bottom: 60px;
+    
 }
 
 a {
@@ -54,10 +55,10 @@ a {
     font-size: 1.0em;
 }
 
-#dragon {
+    #dragon {
     background-image: url(Neverwinter_-_Rise_of_Tiamat.jpg);
     height: 300px;
-    background-size: 50% 100%;
+    background-size: 80% 120%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -67,10 +68,10 @@ li {
 }
 
 #wrapper {
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #90ee90;
+    background-color: #262113;
     box-shadow: 3px 3px 3px #333;
 }
 
@@ -79,8 +80,8 @@ h3 {
     color: rgba(255, 255, 255, 0.8);
     font-family: verdana, helvetica, sans-serif;
     font-size: 1.3em;
-    padding-right: 10px;
-    text-align: left;
+    padding-right: 3px;
+    text-align: center;
 }
 
 .navlist {
@@ -90,15 +91,19 @@ h3 {
     font-size: medium;
     font-weight: bold;
     letter-spacing: 1px;
-    background-color: #EFEFEF;
+    background-color: #ff6700;
     border-right: 1px solid #000000;
-    text-align: center;
+    text-align:center;
 }
 .job {color: #000000;
     font-family: Lucida Handwriting;
     font-size: medium;
     font-weight: bold;
     letter-spacing: 1px;
-    background-color: #EFEFEF;
+    background-color: #ff6700;
     border-right: 1px solid #000000;
     text-align: center;}
+
+#greenwood {
+    background-image: url(greenwood.gif);
+    
