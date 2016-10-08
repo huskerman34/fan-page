@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-    color: #ff8000;background-color: #441f00;
+    color: #ff8000;
 }
 
 footer {
@@ -32,7 +32,9 @@ header {
 }
 
 footer {
-    font-size: 1.00em; color:#131107; background-color: #e3fb00;
+    font-size: 1.00em;
+    color: #131107;
+    background-color: #e3fb00;
 }
 
 title {
@@ -45,14 +47,15 @@ img {
 }
 
 main {
-    background-color:#121307;
-    
+    background-color: #030015;
+    color: rgba(125, 128, 0, 0.8)
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
-    font-size: 1.0em;
+    font-size: .85em;
+    color: black;
 }
 
 #dragon {
@@ -63,8 +66,6 @@ a {
     background-position: center;
 }
 
-
-
 #wrapper {
     width: 80%;
     margin-left: auto;
@@ -72,14 +73,15 @@ a {
     background-color: #262113;
     box-shadow: 3px 3px 3px #333;
 }
+
 h3 {
-    color:#ff7400;background-color: #441f00;
-    
+    color: #ff7400;
     font-family: verdana, helvetica, sans-serif;
     font-size: 1.3em;
     padding-right: 3px;
 }
-    .navlist {
+
+.navlist {
     color: #000000;
     font-family: Lucida Handwriting;
     font-size: medium;
@@ -98,19 +100,34 @@ h3 {
     background-color: #ff6700;
     text-align: center;
 }
+
 #ranger {
     background-image: url(FrederickLorensiel_zpssebuojwx.jpg);
-    height: 150px; background-repeat: no-repeat; background-position: left;
-    background-size:contain; padding-left: 10px;margin-left: 10px;
-    
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 
 p {
     background-color: #ffc500;
     margin-left: 60px;
-    padding: 5px;
-    20px;
+    padding:5px 20px;
     border-top-left-radius: 90px;
-    border-bottom-left-radius: 90px; font-family:Lucida Handwriting;
+    border-bottom-left-radius: 90px;
+    font-family: Lucida Handwriting;
+    color: snow;
 }
-dt, dd, {background-color: #ffc500; margin left 60px; padding: 5px; 20px; border-top-left-radius: 90px; border-bottom-left-radius: 90px;}
+
+dd {
+    color: snow;
+    font-size: .80em;
+}
+
+dt {
+    color: #ff8000;
+    color: rgba(125, 128, 0, 0.8);
+    font-size: 1.5em;
+}
