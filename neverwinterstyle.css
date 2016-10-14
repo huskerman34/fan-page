@@ -3,7 +3,6 @@ body {
     background-image: linear-gradient(to bottom, #ffffff, #af670c);
     background-repeat: no-repeat;
 }
-
 h1 {
     font-family: Lucida Handwriting;
     height: 60px;
@@ -12,16 +11,9 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
-
 h2 {
-    color: #ff8000;
+    color:black;
 }
-
-footer {
-    font-style: italic;
-    text-align: center;
-}
-
 header {
     background-image: url(main-background-footer.jpg);
     background-position: right;
@@ -30,34 +22,29 @@ header {
     width: auto;
     font-size: 1em;
 }
-
 footer {
     font-size: 1.00em;
+    font-style: italic;
+    text-align: center;
     color: #131107;
     background-color: #e3fb00;
 }
-
 title {
     font-style: oblique;
 }
-
 img {
     float: left;
     border-style: double;
 }
-
 main {
     background-color: #ffa249;
-    color: rgba(255,204,102);
 }
-
 a {
     text-decoration: underline;
     font-weight: bold;
     font-size: .85em;
     color: black;
 }
-
 #dragon {
     background-image: url(Neverwinter_-_Rise_of_Tiamat.jpg);
     height: 400px;
@@ -65,32 +52,30 @@ a {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 #wrapper {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #262113;
+    background-color: #ebd5b3;
     box-shadow: 3px 3px 3px #333;
 }
-
 h3 {
-    color: #ff7400;
+    color:black;
     font-family: verdana, helvetica, sans-serif;
     font-size: 1.3em;
     padding-right: 3px;
 }
-
-.navlist {
+nav {
     color: #000000;
     font-family: Lucida Handwriting;
-    font-size: medium;
+    font-size: 1.2em;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     background-color: #ff6700;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 1px;
 }
-
 .job {
     color: #000000;
     font-family: Lucida Handwriting;
@@ -100,7 +85,6 @@ h3 {
     background-color: #ff6700;
     text-align: center;
 }
-
 #ranger {
     background-image: url(FrederickLorensiel_zpssebuojwx.jpg);
     height: 150px;
@@ -110,25 +94,68 @@ h3 {
     padding-left: 10px;
     margin-left: 10px;
 }
-
 p {
-    background-color: #ffc500;
-    margin-left: 60px;
-    padding:5px 20px;
-    border-top-left-radius: 90px;
-    border-bottom-left-radius: 90px;
     font-family: Lucida Handwriting;
     color: black;
 }
-
 dd {
-    color: black; font-family:Lucida Handwriting;
-    font-size: 1.0em;
+    color: black;
+    font-family: Lucida Handwriting;
+    font-size: .9em;
+}
+dt {
+    color:black;
+    font-size: 1.5em;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+}
+article header {
+    text-align: left;
+}
+aside {
+    float: right;
+    font-family: Lucida Handwriting;
+    background-color: darkorange;
+    font-size: 80%;
+    box-shadow: 5px 5px 5px #333333;
+    position: relative;
+    top: -20px;
+}    header,
+main,
+nav,
+footer,
+section,
+article,
+aside,
+figure,
+figcaption {
+    display: block;
+}
+figure {
+    float: right;
+    width: 260px;
+    margin: 10px;
+}
+figcaption {
+    text-align: center;
+    font-size: .8em;
+}
+#content {list-style-type: none; background-color:blueviolet;}
+nav a:link {color: #ffffff;}
+nav a: visited {color: #eaeaea;}
+nav a: hover {color: #000066; background-color:#eaeaea;}
+nav li {
+    display: inline;
 }
 
-dt {
-    color: #ff8000;
-       font-size: 1.5em;
+nav a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-ul {list-style: none;}
-a {text-decoration: none; text-align: center;}
+#top {text-align: center;}
