@@ -47,8 +47,8 @@ img {
 }
 
 main {
-    background-color: #030015;
-    color: rgba(125, 128, 0, 0.8)
+    background-color: #ffa249;
+    color: rgba(255,204,102);
 }
 
 a {
@@ -118,16 +118,17 @@ p {
     border-top-left-radius: 90px;
     border-bottom-left-radius: 90px;
     font-family: Lucida Handwriting;
-    color: snow;
+    color: black;
 }
 
 dd {
-    color: snow;
-    font-size: .80em;
+    color: black; font-family:Lucida Handwriting;
+    font-size: 1.0em;
 }
 
 dt {
     color: #ff8000;
-    color: rgba(125, 128, 0, 0.8);
-    font-size: 1.5em;
+       font-size: 1.5em;
 }
+ul {list-style: none;}
+a {text-decoration: none; text-align: center;}
