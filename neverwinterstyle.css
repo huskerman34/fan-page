@@ -12,7 +12,7 @@ h1 {
     text-transform: uppercase;
 }
 h2 {
-    color:black;
+    color: black;
 }
 header {
     background-image: url(main-background-footer.jpg);
@@ -60,7 +60,7 @@ a {
     box-shadow: 3px 3px 3px #333;
 }
 h3 {
-    color:black;
+    color: black;
     font-family: verdana, helvetica, sans-serif;
     font-size: 1.3em;
     padding-right: 3px;
@@ -104,7 +104,7 @@ dd {
     font-size: .9em;
 }
 dt {
-    color:black;
+    color: black;
     font-size: 1.5em;
 }
 ul {
@@ -125,7 +125,8 @@ aside {
     box-shadow: 5px 5px 5px #333333;
     position: relative;
     top: -20px;
-}    header,
+}
+header,
 main,
 nav,
 footer,
@@ -145,17 +146,76 @@ figcaption {
     text-align: center;
     font-size: .8em;
 }
-#content {list-style-type: none; background-color:blueviolet;}
-nav a:link {color: #ffffff;}
-nav a: visited {color: #eaeaea;}
-nav a: hover {color: #000066; background-color:#eaeaea;}
+#content {
+    list-style-type: none;
+    background-color: blueviolet;
+}
+nav a:link {
+    color: #ffffff;
+}
+nav a:visited {
+    color: #eaeaea;
+}
+nav a:hover {
+    color: #000066;
+    background-color: #eaeaea;
+}
 nav li {
     display: inline;
 }
-
 nav a {
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
 }
-#top {text-align: center;}
+#top {
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    h1,
+    h2 {
+        font-size: 100%;
+    }
+    span {
+        font-size: 80%;
+    }
+    figure {
+        display: none;
+    }
+    nav,
+    nav li,
+    nav ul {
+        padding: 0;
+    }
+    nav li {
+        display: block;
+    }
+    main {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    main {
+        margin-left: 0;
+    }
+    nav {
+        width: auto;
+    }
+    #wrapper {
+        width: auto;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0.5em;
+    }
+    nav ul {
+        text-align: center;
+    }
+    h1,
+    h2 {
+        font-size: 120%;
+    }
+    p {
+        font-size: 90%;
+    }
+}
